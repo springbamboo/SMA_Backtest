@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-
 def SMA(series, term):
     return pd.Series(series).rolling(term).mean()
 
